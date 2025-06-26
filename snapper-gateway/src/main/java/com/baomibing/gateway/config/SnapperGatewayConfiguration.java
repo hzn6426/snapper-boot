@@ -54,15 +54,6 @@ public class SnapperGatewayConfiguration {
 		return new ThirdPartFilter();
 	}
 
-	@Bean
-	public TenantJwtTokenFilter tenantJwtTokenFilter() {
-		return new TenantJwtTokenFilter();
-	}
-
-	@Bean
-	public TenantAuthorizationFilter tenantAuthorizationFilter() {
-		return new TenantAuthorizationFilter();
-	}
 
 
 }
